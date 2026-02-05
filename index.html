@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ganesh Events - Professional Event Management</title>
+    <link rel="icon" type="image/png" href="gallery/ganesh_logo.jpg" />
+    <meta
+      name="description"
+      content="Professional Event Management Services by Ganesh Events"
+    />
+    <meta name="theme-color" content="#008000" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome for Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="#hero" class="nav-logo"
+          ><img src="ganesheventslogo.jpg" class="nav-logo-image" />Ganesh
+          Events</a
+        >
+
+        <div class="nav-menu" id="nav-menu">
+          <a href="#hero" class="nav-link" data-section="hero">
+            <span>Home</span>
+            <span class="nav-underline"></span>
+          </a>
+          <a href="#aboutus" class="nav-link" data-section="aboutus">
+            <span>About Us</span>
+            <span class="nav-underline"></span>
+          </a>
+          <a href="#services" class="nav-link" data-section="services">
+            <span>Our Services</span>
+            <span class="nav-underline"></span>
+          </a>
+          <a href="#contactus" class="nav-link" data-section="contactus">
+            <span>Contact Us</span>
+            <span class="nav-underline"></span>
+          </a>
+        </div>
+
+        <!-- Social Media Icons in Navbar -->
+        <div class="nav-social">
+          <a
+            href="tel:+918792783756"
+            target="_blank"
+            class="nav-phone"
+            style="font-size: 14px"
+          >
+            <i class="fas fa-phone"></i>
+            +91 87927 83756
+          </a>
+          <a
+            href="https://www.facebook.com/profile.php?id=61577130766666"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Facebook"
+          >
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/ganesh_events9/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/ganesh-events-a885b7370/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+          >
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a
+            href="https://wa.me/918792783756"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="WhatsApp"
+          >
+            <i class="fab fa-whatsapp"></i>
+          </a>
+          <a
+            href="https://x.com/Ganesh_Events9"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Twitter"
+          >
+            <i class="fab fa-twitter"></i>
+          </a>
+        </div>
+
+        <!-- Current Section Indicator -->
+        <div class="nav-section-indicator" id="nav-section-indicator"></div>
+
+        <button class="nav-toggle" id="nav-toggle">
+          <span class="hamburger"></span>
+          <span class="hamburger"></span>
+          <span class="hamburger"></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <div class="hero-carousel">
+        <div class="hero-slide active">
+          <img
+            src="gallery/4309783.jpg"
+            alt="Creating Unforgettable Moments"
+            class="hero-image"
+          />
+          <div class="hero-overlay"></div>
+          <div class="hero-content">
+            <h1 class="hero-title">Creating Unforgettable Moments</h1>
+            <p class="hero-subtitle">Celebrate Without the Stress</p>
+            <button class="hero-btn" onclick="scrollToSection('contactus')">
+              Free Expert Advice
+            </button>
+          </div>
+        </div>
+
+        <div class="hero-slide">
+          <img
+            src="gallery/event dining.jpg"
+            alt="Perfect Events, Every Time"
+            class="hero-image"
+          />
+          <div class="hero-overlay"></div>
+          <div class="hero-content">
+            <h1 class="hero-title">Perfect Events, Every Time</h1>
+            <p class="hero-subtitle">Celebrate Without the Stress</p>
+            <button class="hero-btn" onclick="scrollToSection('contactus')">
+              Free Expert Advice
+            </button>
+          </div>
+        </div>
+
+        <div class="hero-slide">
+          <img
+            src="gallery/Karishna Theme birthday.jpg"
+            alt="Your Dream Event Awaits"
+            class="hero-image"
+          />
+          <div class="hero-overlay"></div>
+          <div class="hero-content">
+            <h1 class="hero-title">Your Dream Event Awaits</h1>
+            <p class="hero-subtitle">Celebrate Without the Stress</p>
+            <button class="hero-btn" onclick="scrollToSection('contactus')">
+              Free Expert Advice
+            </button>
+          </div>
+        </div>
+        <div class="hero-slide">
+          <img
+            src="gallery/ourservices.jpg"
+            alt="Your Dream Event Awaits"
+            class="hero-image"
+          />
+          <div class="hero-overlay"></div>
+          <div class="hero-content">
+            <h1 class="hero-title">Your Dream Event Awaits</h1>
+            <p class="hero-subtitle">Celebrate Without the Stress</p>
+            <button class="hero-btn" onclick="scrollToSection('contactus')">
+              Free Expert Advice
+            </button>
+          </div>
+        </div>
+
+        <div class="hero-slide">
+          <img
+            src="gallery/wedding.jpg"
+            alt="Your Dream Event Awaits"
+            class="hero-image"
+          />
+          <div class="hero-overlay"></div>
+          <div class="hero-content">
+            <h1 class="hero-title">Your Dream Event Awaits</h1>
+            <p class="hero-subtitle">Celebrate Without the Stress</p>
+            <button class="hero-btn" onclick="scrollToSection('contactus')">
+              Free Expert Advice
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-dots">
+        <button class="dot active" onclick="currentSlide(1)"></button>
+        <button class="dot" onclick="currentSlide(2)"></button>
+        <button class="dot" onclick="currentSlide(3)"></button>
+        <button class="dot" onclick="currentSlide(4)"></button>
+        <button class="dot" onclick="currentSlide(5)"></button>
+      </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="aboutus" class="aboutus-section" style="padding-top: 90px">
+      <div class="container">
+        <div class="about-header active">
+          <h1 class="about-title">Welcome to Ganesh Events</h1>
+          <p class="about-subtitle">Where Every Event Becomes an Experience</p>
+        </div>
+
+        <div class="about-content">
+          <section class="about-section">
+            <div class="about-image">
+              <img
+                src="gallery/aboutus_1 (2).jpg"
+                alt="Event Operations"
+                class="section-image"
+              />
+            </div>
+          </section>
+
+          <section class="about-section">
+            <h2 class="section-heading">
+              Curating Unforgettable Moments, Effortlessly
+            </h2>
+            <p class="section-text">
+              The Name pretty much says it all. One of the most well-known
+              birthday planners in Bangalore, we specialize in birthday parties
+              and events. However, this oversimplifies the reasons behind "What
+              we do" and "Who we are." In reality, we help your loved one's
+              birthday party become one of their most treasured memories. Well,
+              that sounds easy enough, but it's hard to pull off. Fortunately,
+              Ganesh Event Management loves a challenge. It is always a victory
+              when our highly qualified staff of expert designers and planners
+              enters the scene.
+            </p>
+            <p class="section-text">
+              The only reason this is feasible is that Ganesh Event Management
+              values the feelings that go into each event. Together, we have
+              created a corporate culture where the needs and desires of the
+              client come first.
+            </p>
+          </section>
+
+          <section class="about-section">
+            <p class="section-text">
+              "A happy customer equals a happy us" is our slogan at Ganesh Event
+              Management - Birthday Planner in Bangalore. For this reason, we
+              will stop at nothing to make our clients happy. When this ardent
+              commitment to customer pleasure is mixed with the knowledgeable
+              event management staff there, magic always results.
+            </p>
+          </section>
+
+          <section class="about-section">
+            <div class="about-image">
+              <img
+                src="gallery/jennifer-kalenberg-Rkj0ms67lio-unsplash.jpg"
+                alt="Our Services"
+                class="section-image"
+              />
+            </div>
+          </section>
+
+          <section class="about-section">
+            <h2 class="section-heading">What We Offer</h2>
+            <ul class="about-list">
+              <li>
+                Curated Event Packages: Ready-to-book décor and themes for
+                weddings, birthdays, baby showers, and more
+              </li>
+              <li>
+                Custom Services: From stage décor to audio-visual setups, book
+                only what you need
+              </li>
+              <li>
+                Institutional & Corporate Events: From college fests to
+                corporate conferences and celebrations, we bring the scale,
+                creativity, and professionalism to deliver impactful
+                experiences.
+              </li>
+              <li>
+                On-Ground Teams: Trained professionals across cities ensuring
+                timely, high-quality execution
+              </li>
+              <li>
+                Tech-Driven Efficiency: Visual catalogs, seamless bookings,
+                smart CRM, and real-time coordination
+              </li>
+            </ul>
+          </section>
+
+          <section class="about-section">
+            <h2 class="section-heading">Our Mission</h2>
+            <p class="section-text">
+              To make premium event experiences accessible, organized, and
+              visually transparent — while uplifting India's ecosystem of local
+              vendors, artists, and professionals.
+            </p>
+          </section>
+
+          <section class="about-section">
+            <h2 class="section-heading">The Ganesh Events Flywheel</h2>
+            <ol class="about-numbered-list">
+              <li>One great event → Content & Referrals</li>
+              <li>Repeat Bookings → Brand Loyalty</li>
+              <li>Growth → That's the Ganesh Events advantage</li>
+              <li>
+                A flywheel of celebration, powered by trust, tech, and talent.
+              </li>
+            </ol>
+          </section>
+
+          <section class="about-section">
+            <h2 class="section-heading">Who We Serve</h2>
+            <ul class="about-list">
+              <li>Couples dreaming of perfect weddings</li>
+              <li>Families planning milestone occasions</li>
+              <li>Colleges, schools & institutions</li>
+              <li>Startups, brands & enterprises looking to create impact</li>
+            </ul>
+            <p class="section-text italic">
+              Whether you're celebrating love, legacy, launch, or life itself —
+              Ganesh by Ganesh Events Pvt. Ltd. is your trusted partner in
+              turning moments into magic.
+            </p>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section" style="padding-top: 90px">
+      <div class="container" style="margin-bottom: 60px">
+        <div class="section-header">
+          <h2 class="section-title">Our Services</h2>
+          <div class="title-underline"></div>
+          <p class="section-subtitle">Professional Event Management</p>
+          <p class="section-description">
+            We specialize in creating unforgettable experiences for all your
+            special occasions
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <div class="service-card">
+            <a href="#contactus" class="service-link" data-section="contactus">
+              <div class="service-image">
+                <img src="gallery/baby_shower.jpg" alt="Baby Shower" />
+                <div class="service-overlay"></div>
+              </div>
+              <div class="service-content">
+                <h3 class="service-title">Baby Shower</h3>
+                <p class="service-description">
+                  Designed with emotion, delivered with elegance.
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <div class="service-card">
+            <a href="#contactus" class="service-link" data-section="contactus">
+              <div class="service-image">
+                <img src="gallery/engement.jpg" alt="Engagement" />
+                <div class="service-overlay"></div>
+              </div>
+              <div class="service-content">
+                <h3 class="service-title">Engagement</h3>
+                <p class="service-description">
+                  Begin your forever with a beautifully planned engagement
+                  celebration.
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <div class="service-card">
+            <a href="#contactus" class="service-link" data-section="contactus">
+              <div class="service-image">
+                <img src="gallery/wedding.jpg" alt="Wedding" />
+                <div class="service-overlay"></div>
+              </div>
+              <div class="service-content">
+                <h3 class="service-title">Wedding</h3>
+                <p class="service-description">
+                  Let us transform your thoughts into reality with our expert
+                  planning services.
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <div class="service-card">
+            <a href="#contactus" class="service-link" data-section="contactus">
+              <div class="service-image">
+                <img src="gallery/voni.jpg" alt="Voni Function" />
+                <div class="service-overlay"></div>
+              </div>
+              <div class="service-content">
+                <h3 class="service-title">Voni Function</h3>
+                <p class="service-description">
+                  Mark the graceful transition from childhood to womanhood with
+                  style and tradition
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <div class="service-card">
+            <a href="#contactus" class="service-link" data-section="contactus">
+              <div class="service-image">
+                <img src="gallery/photo_2.jpg" alt="Custom Events" />
+                <div class="service-overlay"></div>
+              </div>
+              <div class="service-content">
+                <h3 class="service-title">Custom Events</h3>
+                <p class="service-description">
+                  Flexible payment plans for stress-free planning.
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Testimonials Section -->
+      <section class="testimonials-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Real Stories, Unforgettable Memories</h2>
+            <p class="section-description">
+              See how Ganesh Events brought celebrations to life for real people
+              just like you.
+            </p>
+          </div>
+
+          <div class="testimonials-carousel">
+            <div class="testimonial-card">
+              <div class="testimonial-image">
+                <img
+                  src="gallery/Karishna Theme birthday.jpg"
+                  alt="Baby Shower Event"
+                />
+                <div class="testimonial-overlay"></div>
+              </div>
+              <div class="testimonial-content">
+                <h3 class="testimonial-title">Baby Shower</h3>
+                <p class="testimonial-text">
+                  The baby shower was absolutely perfect, thanks to your
+                  incredible planning and attention to detail! Our guests were
+                  amazed, and we couldn't have asked for a more memorable
+                  celebration.
+                </p>
+                <p class="testimonial-author">— Sudarsan.</p>
+              </div>
+            </div>
+
+            <div class="testimonial-card">
+              <div class="testimonial-image">
+                <img
+                  src="gallery/eng_photo1.jpg"
+                  alt="Engagement Celebration"
+                />
+                <div class="testimonial-overlay"></div>
+              </div>
+              <div class="testimonial-content">
+                <h3 class="testimonial-title">Engagement Celebration</h3>
+                <p class="testimonial-text">
+                  Your planning made our engagement party unforgettable, with
+                  every detail perfectly executed! Thank you for creating such a
+                  joyful and seamless celebration
+                </p>
+                <p class="testimonial-author">— Pavan.</p>
+              </div>
+            </div>
+
+            <div class="testimonial-card">
+              <div class="testimonial-image">
+                <img src="gallery/ourservices.jpg" alt="Wedding Celebration" />
+                <div class="testimonial-overlay"></div>
+              </div>
+              <div class="testimonial-content">
+                <h3 class="testimonial-title">Wedding</h3>
+                <p class="testimonial-text">
+                  We were drowning in wedding decisions until we found Ganesh
+                  Events. One platform, endless options, and a team that truly
+                  understood what we wanted.
+                </p>
+                <p class="testimonial-author">— Nagarjuna.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Most Booked Decor Styles</h2>
+            <p class="section-description">
+              Themes & setups that are setting celebrations apart this season
+            </p>
+          </div>
+
+          <div class="gallery-carousel">
+            <div class="gallery-track" id="gallery-track">
+              <div class="gallery-item">
+                <img
+                  src="gallery/abby-savage-zNsSwsuyP3A-unsplash.jpg"
+                  alt="Event 1"
+                  class="gallery-image"
+                />
+              </div>
+              <div class="gallery-item">
+                <img
+                  src="gallery/photo_7.jpg"
+                  alt="Event 2"
+                  class="gallery-image"
+                />
+              </div>
+              <div class="gallery-item">
+                <img
+                  src="gallery/chuttersnap-aEnH4hJ_Mrs-unsplash.jpg"
+                  alt="Event 3"
+                  class="gallery-image"
+                />
+              </div>
+              <div class="gallery-item">
+                <img
+                  src="gallery/ourservices.jpg"
+                  alt="Event 4"
+                  class="gallery-image"
+                />
+              </div>
+              <div class="gallery-item">
+                <img
+                  src="gallery/voni.jpg"
+                  alt="Event 5"
+                  class="gallery-image"
+                />
+              </div>
+              <div class="gallery-item">
+                <img
+                  src="gallery/baby_shower.jpg"
+                  alt="Event 5"
+                  class="gallery-image"
+                />
+              </div>
+              <div class="gallery-item">
+                <img
+                  src="gallery/wedding.jpg"
+                  alt="Event 6"
+                  class="gallery-image"
+                />
+              </div>
+              <div class="gallery-item">
+                <img
+                  src="gallery/1749380838998_HW1.jpeg"
+                  alt="Event 6"
+                  class="gallery-image"
+                />
+              </div>
+              <div class="gallery-item">
+                <img
+                  src="gallery/1749381381783_Pic2.jpeg"
+                  alt="Event 6"
+                  class="gallery-image"
+                />
+              </div>
+              <div class="gallery-item">
+                <img
+                  src="gallery/1749381349660_Pic18.jpeg"
+                  alt="Event 6"
+                  class="gallery-image"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ Section -->
+      <section class="faq-section">
+        <div class="container">
+          <h2 class="faq-title">Frequently Asked Questions</h2>
+
+          <div class="faq-container">
+            <div class="faq-item">
+              <div class="faq-question" onclick="toggleFAQ(this)">
+                <span>What types of events does Ganesh Events cater to?</span>
+                <span class="faq-toggle">+</span>
+              </div>
+              <div class="faq-answer">
+                <p>
+                  We specialize in a wide range of events including weddings,
+                  birthdays, baby showers, school and college functions,
+                  corporate events and more. Whether you want a full event
+                  package or standalone services, we have you covered.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <div class="faq-question" onclick="toggleFAQ(this)">
+                <span>Can I customize my event package?</span>
+                <span class="faq-toggle">+</span>
+              </div>
+              <div class="faq-answer">
+                <p>
+                  Yes! You can choose from ready-made event packages or build
+                  your own by selecting standalone services that suit your
+                  specific needs and budget.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <div class="faq-question" onclick="toggleFAQ(this)">
+                <span>How do I book an event with Ganesh Events?</span>
+                <span class="faq-toggle">+</span>
+              </div>
+              <div class="faq-answer">
+                <p>
+                  Booking is easy! You can explore our services online, select
+                  your preferred package or individual services, and book
+                  directly through our platform. Our team will then get in touch
+                  to assist you further.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <div class="faq-question" onclick="toggleFAQ(this)">
+                <span>Do you provide services across India?</span>
+                <span class="faq-toggle">+</span>
+              </div>
+              <div class="faq-answer">
+                <p>
+                  Currently, we primarily serve major cities and metro areas and
+                  few foreign countries with plans to expand. Please check
+                  availability for your location during the booking process.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <div class="faq-question" onclick="toggleFAQ(this)">
+                <span>Are your vendors and service providers verified?</span>
+                <span class="faq-toggle">+</span>
+              </div>
+              <div class="faq-answer">
+                <p>
+                  Absolutely. All our vendors and partners go through a rigorous
+                  verification process to ensure quality, reliability, and
+                  professionalism.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- Contact Hero Section -->
+    <section id="contactus" class="contact-hero" style="padding-top: 90px; padding-bottom: 20px;">
+      <div class="contact-hero-content" style="padding-left: 0px">
+        <div class="contact-hero-text">
+          <h1 class="contact-hero-title" style="color: #035703">
+            Get In Touch
+          </h1>
+          <!-- <p class="contact-hero-subtitle" style="color: #035703">
+            Ready to plan your perfect event? Let's make it happen together.
+          </p> -->
+          <section class="map-section">
+            <div
+              class="container"
+              style="padding-left: 0px; padding-right: 0px"
+            >
+              <div class="section-header">
+                <!-- <h2 class="section-title">Find Us</h2> -->
+                <!-- <div class="title-underline"></div> -->
+                <p class="section-description">
+                  Visit our office for a personal consultation about your event
+                </p>
+              </div>
+              <div class="map-container">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.7617135137943!2d77.69586547507454!3d12.858661387446398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6d0047da9bff%3A0xa032a1a08426b694!2sMJ%20Lifestyle%20Astro!5e0!3m2!1sen!2sin!4v1752230406018!5m2!1sen!2sin"
+                  width="100%"
+                  height="300"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                  title="Ganesh Events Office Location"
+                ></iframe>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="contact-booking-form">
+          <div class="booking-form-wrapper">
+            <div class="form-header">
+              <h2 class="form-title">Book Your Event</h2>
+            </div>
+
+            <form
+              action="https://api.web3forms.com/submit"
+              method="POST"
+              class="booking-form"
+              id="contact-booking-form"
+            >
+              <input
+                type="hidden"
+                name="access_key"
+                value="edf5e6c5-6480-42e4-a7df-1bf24e406061"
+              />
+              <input
+                type="text"
+                name="full_name"
+                placeholder="Full Name"
+                class="form-input"
+                required
+              />
+
+              <div class="form-row">
+                <input
+                  type="tel"
+                  name="phone_number"
+                  placeholder="Phone Number"
+                  class="form-input"
+                  required
+                />
+                <input
+                  type="email"
+                  name="email_address"
+                  placeholder="Email Address"
+                  class="form-input"
+                  required
+                />
+              </div>
+
+              <div class="form-row">
+                <select name="event_type" class="form-select" required>
+                  <option value="" disabled selected>Event Type</option>
+                  <option value="wedding">Wedding</option>
+                  <option value="birthday">Voni Function</option>
+                  <option value="engagement">Engagement</option>
+                  <option value="baby-shower">Baby Shower</option>
+                  <option value="corporate">Custom Event</option>
+                </select>
+
+                <select name="event_month" class="form-select" required>
+                  <option value="" disabled selected>Event Month</option>
+                  <option value="january">January</option>
+                  <option value="february">February</option>
+                  <option value="march">March</option>
+                  <option value="april">April</option>
+                  <option value="may">May</option>
+                  <option value="june">June</option>
+                  <option value="july">July</option>
+                  <option value="august">August</option>
+                  <option value="september">September</option>
+                  <option value="october">October</option>
+                  <option value="november">November</option>
+                  <option value="december">December</option>
+                </select>
+              </div>
+
+              <!-- <select name="event_location" class="form-select" required>
+                <option value="" disabled selected>Event Location</option>
+                <option value="hyderabad">Hyderabad</option>
+                <option value="chennai">Chennai</option>
+                <option value="bangalore">Bangalore</option>
+                <option value="mumbai">Mumbai</option>
+              </select> -->
+
+              <input
+                type="text"
+                name="event_location"
+                placeholder="Event Location"
+                class="form-input"
+                required
+              />
+
+              <textarea
+                name="message"
+                placeholder="Tell us about your event vision..."
+                class="form-textarea"
+                rows="4"
+                style="padding-top: 0px; padding-bottom: 0px"
+              ></textarea>
+
+              <button type="submit" class="form-submit">
+                Schedule Your Event
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="back-to-top" onclick="scrollToTop()">Back to Top</div>
+
+      <div class="footer-content">
+        <!-- Desktop Footer -->
+        <div class="footer-desktop">
+          <div class="footer-grid">
+            <div class="footer-column">
+              <ul class="footer-links">
+                <!-- <li><a href="#aboutus">About Ganesh Events</a></li> -->
+                <h3 style="font-size: 24px">Contact Info</h3>
+                <div class="contact-number">
+                  <i class="fas fa-phone"></i>
+                  <a href="tel:+918792783756">+91 87927 83756</a>
+                </div>
+                <li class="footer-email">
+                  <i class="fas fa-envelope"></i>
+                  <a
+                    href="https://mail.google.com/mail/?view=cm&amp;to=info@ganeshevents.com"
+                    target="_blank"
+                  >
+                    info@ganeshevents.com
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer-column">
+              <h3 style="font-size: 24px">Connect with Us</h3>
+              <div class="social-links">
+                <a
+                  href="https://www.facebook.com/profile.php?id=61577130766666"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Facebook"
+                >
+                  <i class="fab fa-facebook-f"></i> Facebook
+                </a>
+                <a
+                  href="https://www.instagram.com/ganesh_events9/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Instagram"
+                >
+                  <i class="fab fa-instagram"></i> Instagram
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/ganesh-events-a885b7370/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="LinkedIn"
+                >
+                  <i class="fab fa-linkedin-in"></i> LinkedIn
+                </a>
+                <a
+                  href="https://wa.me/918792783756"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="WhatsApp"
+                >
+                  <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+                <a
+                  href="https://x.com/Ganesh_Events9"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Twitter"
+                >
+                  <i class="fab fa-twitter"></i> Twitter
+                </a>
+              </div>
+            </div>
+
+            <div class="events-section">
+              <h2 style="height: 38px; font-size: 24px">OUR Services</h2>
+              <ul class="events-type">
+                <li>Wedding</li>
+                <li>Voni Function</li>
+                <li>Engagement</li>
+                <li>Baby Shower</li>
+                <li>Custom Event</li>
+              </ul>
+            </div>
+
+            <div class="footer-column">
+              <div class="footer-address">
+                <h3 style="font-size: 24px">OUR Location</h3>
+                <p>
+                  C305, Mj Lifestyle Astro, Chikkanagamangala, Huskur Road,
+                  Bangalore, India, Karnataka
+                </p>
+                <div class="footer-map-link">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <a
+                    href="https://maps.google.com/?q=C305,+Mj+Lifestyle+Astro,+Chikkanagamangala,+Huskur+Road,+Bangalore,+India,+Karnataka"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    View on Google Maps
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-copyright">
+            <p>© 2025 Ganesh Events Pvt Ltd. All rights reserved</p>
+          </div>
+        </div>
+
+        <!-- Mobile Footer -->
+        <div class="footer-mobile">
+          <div class="footer-mobile-grid">
+            <div class="footer-mobile-section">
+              <!-- Contact Info (from Desktop) -->
+              <div class="footer-links">
+                <h3 style="font-size: 20px">Contact Info</h3>
+                <div class="contact-number">
+                  <i class="fas fa-phone"></i>
+                  <a href="tel:+918792783756">+91 87927 83756</a>
+                </div>
+                <p class="footer-email">
+                  <i class="fas fa-envelope"></i>
+                  <a
+                    href="https://mail.google.com/mail/?view=cm&to=info@ganeshevents.com"
+                    target="_blank"
+                  >
+                    info@ganeshevents.com
+                  </a>
+                </p>
+              </div>
+
+              <!-- Connect with Us (already present, kept as is) -->
+              <div class="social-links">
+                <h3 style="font-size: 24px">Connect with Us</h3>
+                <a
+                  href="https://www.facebook.com/profile.php?id=61577130766666"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Facebook"
+                >
+                  <i class="fab fa-facebook-f"></i> Facebook
+                </a>
+                <a
+                  href="https://www.instagram.com/ganesh_events9/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Instagram"
+                >
+                  <i class="fab fa-instagram"></i> Instagram
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/ganesh-events-a885b7370/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="LinkedIn"
+                >
+                  <i class="fab fa-linkedin-in"></i> LinkedIn
+                </a>
+                <a
+                  href="https://wa.me/918792783756"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="WhatsApp"
+                >
+                  <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+                <a
+                  href="https://x.com/Ganesh_Events9"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Twitter"
+                >
+                  <i class="fab fa-twitter"></i> Twitter
+                </a>
+              </div>
+            </div>
+
+            <!-- Our Services (from Desktop) -->
+            <div class="footer-mobile-section">
+              <h3 style="font-size: 20px">Our Services</h3>
+              <ul class="events-type">
+                <li>Wedding</li>
+                <li>Voni Function</li>
+                <li>Engagement</li>
+                <li>Baby Shower</li>
+                <li>Custom Event</li>
+              </ul>
+            </div>
+
+            <!-- Our Location (from Desktop) -->
+            <div class="footer-address">
+              <h3 style="font-size: 20px">Our Location</h3>
+              <p>
+                C305, Mj Lifestyle Astro, Chikkanagamangala, Huskur Road,
+                Bangalore, India, Karnataka
+              </p>
+              <div class="footer-map-link">
+                <i class="fas fa-map-marker-alt"></i>
+                <a
+                  href="https://maps.google.com/?q=C305,+Mj+Lifestyle+Astro,+Chikkanagamangala,+Huskur+Road,+Bangalore,+India,+Karnataka"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View on Google Maps
+                </a>
+              </div>
+            </div>
+
+            <!-- Copyright (from Desktop) -->
+            <div class="footer-copyright">
+              <p>© 2025 Ganesh Events Pvt Ltd. All rights reserved</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+  </body>
+</html>
